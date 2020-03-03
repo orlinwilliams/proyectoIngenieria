@@ -53,12 +53,64 @@
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon">
+                                <i class="material-icons">date_range</i>
+                            </span>
+                            <div class="form-line">
+                                <input type="text" class="form-control date" placeholder="Ex: 30/07/2016">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">
                                 <i class="material-icons">email</i>
                             </span>
                             <div class="form-line">
                                 <input type="email" class="form-control" name="email" placeholder="Correo electrónico" required>
                             </div>
                         </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="material-icons">call</i>
+                            </span>
+                            <div class="form-line">
+                                <input type="email" class="form-control" name="phone" placeholder="Numero de teléfono" required>
+                            </div>
+                        </div>
+                        
+                        <!-------------------------------------------------
+                        ---------------------------------------------------
+                        
+                        Inicio Aqui debe cargar los departamentos y municipios
+                        
+                        ---------------------------------------------------
+                        ------------------------------------------------->
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="material-icons">place</i>
+                            </span>
+                            <div class="form-line">
+                                <select class="form-control show-tick">
+                                    <optgroup label="Francisco Morazán">
+                                        <option>Talanga</option>
+                                        <option>Valle de Ángeles</option>
+                                        <option>Tegucigalpa</option>
+                                    </optgroup>
+                                    <optgroup label="Olancho">
+                                        <option>Unión</option>
+                                        <option>Olanchito</option>
+                                        <option>Juticalpa</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <!-------------------------------------------------
+                        ---------------------------------------------------
+                        
+                        Fin Aqui debe cargar los departamentos y municipios
+                        
+                        ---------------------------------------------------
+                        ------------------------------------------------->
+                        
+                        
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="material-icons">lock</i>
@@ -101,6 +153,9 @@
 
         <!-- Validation Plugin Js -->
         <script src="../../plugins/jquery-validation/jquery.validate.js"></script>
+
+        <!-- Input Mask Plugin Js -->
+        <script src="../../plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
 
         <!-- Custom Js -->
         <script src="../../js/admin.js"></script>
