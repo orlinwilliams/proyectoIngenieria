@@ -69,20 +69,20 @@
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon">
-                                <i class="material-icons">call</i>
+                                <i class="material-icons">phone_iphone</i>
                             </span>
                             <div class="form-line">
-                                <input type="email" class="form-control" name="phone" placeholder="Numero de teléfono" required>
+                                <input type="text" name="phone" class="form-control mobile-phone-number" placeholder="Ex: +504 9999-9999">
                             </div>
                         </div>
                         
                         <!-------------------------------------------------
                         ---------------------------------------------------
-                        
+
                         Inicio Aqui debe cargar los departamentos y municipios
-                        
+
                         ---------------------------------------------------
-                        ------------------------------------------------->
+                        -------------------------------------------------->
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="material-icons">place</i>
@@ -104,13 +104,13 @@
                         </div>
                         <!-------------------------------------------------
                         ---------------------------------------------------
-                        
+
                         Fin Aqui debe cargar los departamentos y municipios
-                        
+
                         ---------------------------------------------------
                         ------------------------------------------------->
-                        
-                        
+
+
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="material-icons">lock</i>
